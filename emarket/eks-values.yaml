@@ -113,7 +113,7 @@ global:
       ## @param global.sql.common.user AWS RDS service username
       ##
       user: admin
-      pwd: RcgyYBvbbL
+      pwd: LqCOkrsyrS
       pid: Developer
   mongo:
     architecture: standalone
@@ -126,7 +126,7 @@ global:
     ##
     standalone:
       port: 6379
-      svc: psy-redis-cluster.zffqcz.0001.use1.cache.amazonaws.com
+      svc: psy-redis-cluster.zffqcz.0001.use1.cache.amazonaws.com 
   eventbus:
       svc:  rabbitmq
       constr:  rabbitmq
